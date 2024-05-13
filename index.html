@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E-Commerce</title>
+  <!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style-2.css">
+  <!-- Animation CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!-- Ajax CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Slick Link -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <style type="text/css">
+    .owl-img{
+      width: 270px;
+      height: 330px;
+      margin-left: 20px;
+    }
+    .owl-slider p{
+      color: rgb(248, 207, 130);
+      font-size: calc(5px + 1.5vw);
+      text-align: center !important;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="center" >
+    <div class="ring"></div>
+    <span>
+      Loading...
+    </span>
+  </div>
+
+  <!-- ---------- Nav Bar Start ---------- -->
+
+  <section class="navbarr" id="navbarr" style="">
+    <div class="nav-containerr">
+      <div class="nav-brandd">
+        <a id="logo" href="#">SAFA</a>
+      </div>
+      <nav>
+        <div class="nav-mobilee"><a id="nav-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+          <li>
+            <a href="#">Products</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>        
+        </ul>
+      </nav>
+    </div>
+  </section><br><br><br>
+
+  <!-- ---------- Nav Bar End ---------- -->
+
+  <!-- ---------- Slider Start ---------- -->
+
+<div class="content">
+      <!-- SLIDER -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+         <div class="body-slider" id="slider-1">
+        <div class="slider-content" id="slider-content-1">
+          <h2>Fashion Sale</h2><div class="animate__animated animate__bounceIn">
+          <h1>Minimal Men's Style</h1></div>
+          <div class="animate__animated animate__slideInUp">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p><br>
+            <a href="#" class="slider-btn">Explore Now</a>
+          </div>
+        </div>
+        <div class="slider-image"  id="slider-image-1"></div>
+      </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="body-slider" id="slider-2">
+        <div class="slider-image"  id="slider-image-2"></div>
+        <div class="slider-content" id="slider-content-2">
+          <h2>Fashion Sale</h2>
+          <h1 class="animate__animated animate__bounceIn">Minimal Kid's Style</h1>
+          <div class="animate__animated animate__slideInUp">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p><br>
+            <a href="#" class="slider-btn">Explore Now</a>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="carousel-item">
+         <div class="body-slider" id="slider-3">
+        <div class="slider-content" id="slider-content-3">
+          <h2>Fashion Sale</h2>
+          <h1 class="animate__animated animate__bounceIn">Minimal Women's Style</h1>
+          <div class="animate__animated animate__slideInUp">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p><br>
+            <a href="#" class="slider-btn">Explore Now</a>
+          </div>
+        </div>
+        <div class="slider-image"  id="slider-image-3"></div>
+      </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div><br><br><br>
+  <!-- ---------- Slider End ---------- -->
+
+    <!-- Details Section -->
+      <div class="container">
+    <div class="row animate__animated animate__fadeIn">
+      <div class="col-12 col-md-12 col-sm-12 col-xl-12"><br><br>
+        <h1 align="center" id="tp-caption">SAFA</h1><br>
+        <p align="justify" id="tp-details">is working as a buying house in the field of garments Industry. Our Major concern is to play
+          our role as a buying house / Buyers Agent of our customers. One of our primary responsibilities as a buying
+          house is to assure that the product purchased and released for shipment conforms to be customer’s requirement.
+          Our service includes all that a buyer needs for successful buying. We have eleven years of experience on its
+          back in dealing all categories of garments Specially knit. Our objective is to provide total customer
+          satisfaction by offering a range of quality garments at reasonable price. Our swift response to our customers’
+          needs and well maintained production schedules have earned us reputed customers in Europe and Canada. We also
+          welcome customers from other parts of the world.</p>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Products Section Start -->
+    <div class="products-container">
+      <section class="products-section animate__animated animate__zoomIn">
+        <h1>PRODUCTS</h1>
+        <div class="products-cards">
+          <div class="products-card" id="products-card1">
+            <div class="products-card-border" id="card-border1">
+              <h5 id="first-heading">MEN's</h5>
+            </div>
+          </div>
+          <div class="products-card" id="products-card2">
+            <div class="products-card-border" id="card-border2">
+              <h5 id="second-heading">WOMEN's</h5>
+            </div>
+          </div>
+          <div class="products-card" id="products-card3">
+            <div class="products-card-border" id="card-border3">
+              <h5 id="third-heading">KID's</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Products Section End -->
+
+  <!-- Explore Section -->
+  <div class="container explore-container">
+    <div class="row">
+      <div class="col-12 col-md-12 col-sm-12 col-xl-12">
+        <h1 align="center" id="explore-h">Keep Exploring</h1>
+        <p id="explore">Whether you’re looking for our locations, learning about careers, or want to do business with
+          us, start exploring the possibilities below.</p>
+      </div>
+    </div>
+  </div>
+
+  <ul class="owl-slider" style="margin: 100px;">
+  <li>
+    <div>
+      <img class="img-fluid owl-img" src="images/1.png">
+      <p>Lorem Ipsum</p>
+    </div>
+  </li>
+  <li>
+    <div>
+      <img class="img-fluid owl-img" src="images/2.png">
+      <p>Lorem Ipsum</p>
+    </div>
+  </li>
+  <li>
+    <div>
+      <img class="img-fluid owl-img" src="images/3.png">
+      <p>Lorem Ipsum</p>
+    </div>
+  </li>
+  <li>
+    <div>
+      <img class="img-fluid owl-img" src="images/1.png">
+      <p>Lorem Ipsum</p>
+    </div>
+  </li>
+  <li>
+    <div>
+      <img class="img-fluid owl-img" src="images/10.png">
+      <p>Lorem Ipsum</p>
+    </div>
+  </li>
+  <li>
+    <div>
+      <img class="img-fluid owl-img" src="images/2.png">
+      <p>Lorem Ipsum</p>
+    </div>
+  </li>
+</ul>
+
+  <!-- Icons Section -->
+  <hr>
+  <div class="icons-container">
+    <section class="icons-section animate__animated animate__lightSpeedInLeft">
+      <div class="icons">
+        <div class="quality icon">
+          <img src="http://jtmfashions.com/wp-content/uploads/2020/11/award-icon-isolated-sign-symbol-260nw-1614879151.png" width="100" height="100" alt="">
+          <h3>Quality</h3>
+        </div>
+        <div class="services icon">
+          <img src="http://jtmfashions.com/wp-content/uploads/2020/11/download.png" width="100" height="100" alt="">
+          <h3>Services</h3>
+        </div>
+        <div class="innovation icon">
+          <img src="http://jtmfashions.com/wp-content/uploads/2020/11/inno.png" width="100" height="100" alt="">
+          <h3>Innovation</h3>
+        </div>
+        <div class="safety icon">
+          <img src="http://jtmfashions.com/wp-content/uploads/2020/11/newsafety-1.png" width="100" height="100" alt="">
+          <h3>Safety</h3>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <!-- FOOTER  -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col footer-logo"><h1>SAFA</h1><hr></div></div>
+      </div>
+      <div class="container con">
+        <div class="row roww" style="margin-left: 100px;">
+          <!-- <div class="col-1"></div> -->
+          <div class="col-2" >
+            <h4>MEN</h4>
+            <ul>
+             <a href="#"> <li>Fashion</li></a>
+             <a href="#"> <li>Winter</li></a>
+             <a href="#"> <li>Summer</li></a>
+             <a href="#"> <li>Formal</li></a>
+             <a href="#"> <li>Casual</li></a>
+            </ul>
+          </div>
+          <div class="col-2"></div>
+          <div class="col-2" >
+            <h4>WOMEN</h4>
+            <ul>
+             <a href="#"> <li>Fashion</li></a>
+             <a href="#"> <li>Winter</li></a>
+             <a href="#"> <li>Summer</li></a>
+             <a href="#"> <li>Formal</li></a>
+             <a href="#"> <li>Casual</li></a>
+            </ul>
+          </div>
+          <div class="col-2"></div>
+          <div class="col-2" >
+            <h4>KIDS</h4>
+            <ul>
+             <a href="#"> <li>Fashion</li></a>
+             <a href="#"> <li>Winter</li></a>
+             <a href="#"> <li>Summer</li></a>
+             <a href="#"> <li>Formal</li></a>
+             <a href="#"> <li>Casual</li></a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <div class="container">
+        <hr>
+        <div class="row">
+        <div class="col">
+          <p style="text-align: center; color: wheat;">Copyright 2022 © All rights reserved | This website is made by Hassaan and Saud.</p>
+      </div>
+    </div>
+  </div>
+    </footer>
+    <div class="footer-border" style="background-color:rgb(22,21,19)">
+    </div>
+
+    <!-- Bottom to top button -->
+    <div class="top-btn animate__animated animate__slideInUp" style="opacity: 0;">
+      <a href="#logo"><i class="fa-solid fa-circle-up"></i></a>
+    </div>
+
+
+  <!-- ---------- Body Content End ---------- -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+<!-- Slick Link -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+ <script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
